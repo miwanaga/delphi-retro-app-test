@@ -20,7 +20,7 @@ name="RetroUITestRepository">
 		name="RetroUIForm"
 		refpath="/form[@controlname='RetroUIForm']"
 		searchtimeout="30000ms"
-		usecache="True">
+		usecache="False">
 			<item
 			addcaps="radiobutton,nativewindow,delphicontrol"
 			capname="radiobutton"
@@ -49,21 +49,21 @@ name="RetroUITestRepository">
 			id="bd9497c9-faee-49ef-807b-8c55112b082a"
 			name="ListItemｼｽﾃﾑｼﾞｭﾝﾋﾞｶﾝﾘｮｳ"
 			refimgid="be89e844-0c0d-4958-bdfa-c20025d6f623"
-			refpath="/form[@controlname='RetroUIForm']/list[@controlname='lstLog']/listitem[@text='> ｼｽﾃﾑ ｼﾞｭﾝﾋﾞ ｶﾝﾘｮｳ.']"
-			robustPath="/form[@controlname='RetroUIForm']/?/?/listitem[@text='> ｼｽﾃﾑ ｼﾞｭﾝﾋﾞ ｶﾝﾘｮｳ.']"
+			refpath="/form[@controlname='RetroUIForm']/list[@controlname='lstLog']/listitem[@text='> 初期化が完了しました']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/listitem[@text='> 初期化が完了しました']"
 			searchtimeout="30000ms">
-				/form[@controlname='RetroUIForm']/?/?/listitem[@text='&gt; &#65404;&#65405;&#65411;&#65425; &#65404;&#65438;&#65389;&#65437;&#65419;&#65438; &#65398;&#65437;&#65432;&#65390;&#65395;.']
+				/form[@controlname='RetroUIForm']/?/?/listitem[@text='&gt; &#21021;&#26399;&#21270;&#12364;&#23436;&#20102;&#12375;&#12414;&#12375;&#12383;']
 			</item>
 			<item
-			addcaps="container,nativewindow,delphicontrol"
-			capname="container"
+			addcaps="listitem"
+			capname="listitem"
 			id="7116d478-f177-4bb9-894a-10788c4552d3"
 			name="PnlStat1"
 			refimgid="89cb4c17-899c-44ba-89ac-c6cf2606a64e"
-			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlStatus']/container[@controlname='pnlStat1']"
-			robustPath="/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat1']"
+			refpath="/form[@controlname='RetroUIForm']/statusbar[@controlname='statusBar']/listitem[@index='0']"
+			robustPath="/form[@controlname='RetroUIForm']/statusbar[@controlname='statusBar']/listitem[@index='0']"
 			searchtimeout="30000ms">
-				/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat1']
+				/form[@controlname='RetroUIForm']/statusbar[@controlname='statusBar']/listitem[@index='0']
 			</item>
 			<item
 			addcaps="button,nativewindow,delphicontrol"
@@ -121,15 +121,15 @@ name="RetroUITestRepository">
 				/form[@controlname='RetroUIForm']/?/?/radiobutton[@controlname='rbLan']
 			</item>
 			<item
-			addcaps="container,nativewindow,delphicontrol"
-			capname="container"
+			addcaps="listitem"
+			capname="listitem"
 			id="eeaa43fc-1784-4ae9-8f2c-140ae2423b4f"
 			name="PnlStat2"
 			refimgid="24882077-a3a8-401e-8d7f-61a48e3efd05"
-			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlStatus']/container[@controlname='pnlStat2']"
-			robustPath="/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat2']"
+			refpath="/form[@controlname='RetroUIForm']/statusbar[@controlname='statusBar']/listitem[@index='1']"
+			robustPath="/form[@controlname='RetroUIForm']/statusbar[@controlname='statusBar']/listitem[@index='1']"
 			searchtimeout="30000ms">
-				/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat2']
+				/form[@controlname='RetroUIForm']/statusbar[@controlname='statusBar']/listitem[@index='1']
 			</item>
 			<basepath>
 				/form[@controlname='RetroUIForm']

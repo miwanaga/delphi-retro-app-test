@@ -92,8 +92,8 @@ namespace RetroUITest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\work\\RetroUI2\\RetroUID7\\RetroUID7.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\work\\RetroUI2\\RetroUID7\\RetroUID7.exe", "", "C:\\work\\RetroUI2\\RetroUID7", false));
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\work\\RetroUI\\RetroUID13Modern.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\work\\RetroUI\\RetroUID13Modern.exe", "", "C:\\work\\RetroUI", false));
             Delay.Milliseconds(0);
             
         }

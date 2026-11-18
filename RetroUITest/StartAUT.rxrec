@@ -42,10 +42,10 @@ mode="Desktop">
 				</binding>
 			</bindings>
 			<filename>
-				C:\work\RetroUI2\RetroUID7\RetroUID7.exe
+				C:\work\RetroUI\RetroUID13Modern.exe
 			</filename>
 			<workingdir>
-				C:\work\RetroUI2\RetroUID7
+				C:\work\RetroUI
 			</workingdir>
 			<args>
 			</args>

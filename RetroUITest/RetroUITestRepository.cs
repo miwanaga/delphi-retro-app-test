@@ -122,18 +122,18 @@ namespace RetroUITest
             /// Creates a new RetroUIForm  folder.
             /// </summary>
             public RetroUIFormAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("RetroUIForm", "/form[@controlname='RetroUIForm']", parentFolder, 30000, null, true, "02c6fb6a-ab80-4874-90f6-904cd6c6651b", "")
+                    base("RetroUIForm", "/form[@controlname='RetroUIForm']", parentFolder, 30000, null, false, "02c6fb6a-ab80-4874-90f6-904cd6c6651b", "")
             {
                 _rbmodemInfo = new RepoItemInfo(this, "RbModem", "?/?/radiobutton[@controlname='rbModem']", "?/?/radiobutton[@controlname='rbModem']", 30000, null, "93daa074-68b0-47f6-960d-2c43b0abfeae");
                 _container459954Info = new RepoItemInfo(this, "Container459954", "container[@automationid='459954']", "container[@automationid='459954']", 30000, null, "b4e46aa2-ac2b-4d74-ac28-59349f3e6360");
-                _listitemｼｽﾃﾑｼﾞｭﾝﾋﾞｶﾝﾘｮｳInfo = new RepoItemInfo(this, "ListItemｼｽﾃﾑｼﾞｭﾝﾋﾞｶﾝﾘｮｳ", "?/?/listitem[@text='> ｼｽﾃﾑ ｼﾞｭﾝﾋﾞ ｶﾝﾘｮｳ.']", "?/?/listitem[@text='> ｼｽﾃﾑ ｼﾞｭﾝﾋﾞ ｶﾝﾘｮｳ.']", 30000, null, "bd9497c9-faee-49ef-807b-8c55112b082a");
-                _pnlstat1Info = new RepoItemInfo(this, "PnlStat1", "?/?/container[@controlname='pnlStat1']", "?/?/container[@controlname='pnlStat1']", 30000, null, "7116d478-f177-4bb9-894a-10788c4552d3");
+                _listitemｼｽﾃﾑｼﾞｭﾝﾋﾞｶﾝﾘｮｳInfo = new RepoItemInfo(this, "ListItemｼｽﾃﾑｼﾞｭﾝﾋﾞｶﾝﾘｮｳ", "?/?/listitem[@text='> 初期化が完了しました']", "?/?/listitem[@text='> 初期化が完了しました']", 30000, null, "bd9497c9-faee-49ef-807b-8c55112b082a");
+                _pnlstat1Info = new RepoItemInfo(this, "PnlStat1", "statusbar[@controlname='statusBar']/listitem[@index='0']", "statusbar[@controlname='statusBar']/listitem[@index='0']", 30000, null, "7116d478-f177-4bb9-894a-10788c4552d3");
                 _btnexecInfo = new RepoItemInfo(this, "BtnExec", "?/?/button[@controlname='btnExec']", "?/?/button[@controlname='btnExec']", 30000, null, "b9eb7489-390a-49fa-9bd6-51381971b261");
                 _btnstopInfo = new RepoItemInfo(this, "BtnStop", "?/?/button[@controlname='btnStop']", "?/?/button[@controlname='btnStop']", 30000, null, "6214ddea-eb3c-48eb-961a-0f7d837f7317");
                 _btncloseInfo = new RepoItemInfo(this, "BtnClose", "?/?/button[@controlname='btnClose']", "?/?/button[@controlname='btnClose']", 30000, null, "e3425edc-e656-4fd4-88e8-ecd86d7cd2f3");
                 _lstlogInfo = new RepoItemInfo(this, "LstLog", "list[@controlname='lstLog']", "list[@controlname='lstLog']", 30000, null, "f537dc69-d122-463c-b45b-ab43cdab2468");
                 _rblanInfo = new RepoItemInfo(this, "RbLan", "?/?/radiobutton[@controlname='rbLan']", "?/?/radiobutton[@controlname='rbLan']", 30000, null, "10ad345a-6e14-4272-b65b-a2b74b5a12e9");
-                _pnlstat2Info = new RepoItemInfo(this, "PnlStat2", "?/?/container[@controlname='pnlStat2']", "?/?/container[@controlname='pnlStat2']", 30000, null, "eeaa43fc-1784-4ae9-8f2c-140ae2423b4f");
+                _pnlstat2Info = new RepoItemInfo(this, "PnlStat2", "statusbar[@controlname='statusBar']/listitem[@index='1']", "statusbar[@controlname='statusBar']/listitem[@index='1']", 30000, null, "eeaa43fc-1784-4ae9-8f2c-140ae2423b4f");
             }
 
             /// <summary>
@@ -236,11 +236,11 @@ namespace RetroUITest
             /// The PnlStat1 item.
             /// </summary>
             [RepositoryItem("7116d478-f177-4bb9-894a-10788c4552d3")]
-            public virtual Ranorex.Container PnlStat1
+            public virtual Ranorex.ListItem PnlStat1
             {
                 get
                 {
-                    return _pnlstat1Info.CreateAdapter<Ranorex.Container>(true);
+                    return _pnlstat1Info.CreateAdapter<Ranorex.ListItem>(true);
                 }
             }
 
@@ -380,11 +380,11 @@ namespace RetroUITest
             /// The PnlStat2 item.
             /// </summary>
             [RepositoryItem("eeaa43fc-1784-4ae9-8f2c-140ae2423b4f")]
-            public virtual Ranorex.Container PnlStat2
+            public virtual Ranorex.ListItem PnlStat2
             {
                 get
                 {
-                    return _pnlstat2Info.CreateAdapter<Ranorex.Container>(true);
+                    return _pnlstat2Info.CreateAdapter<Ranorex.ListItem>(true);
                 }
             }
 
