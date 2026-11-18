@@ -1,0 +1,24 @@
+ ビルド成果物
+[Bb]in/
+[Oo]bj/
+
+ テスト実行結果
+[Rr]eports/
+SingleReportPDF/
+*.rxlog
+*.rxlog.data
+*.rxlog.lnk
+
+ 個人環境の設定・一時ファイル
+.vs/
+*.user
+*.userprefs
+*.suo
+*.rsuser
+*.cache
+*.tmp
+*.bak
+~$*
+
+ NuGet の復元済みパッケージ
+packages/

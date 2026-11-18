@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="RetroUITest"
+      id="12a27471-fff0-4e56-8512-d3fc8f5df999"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="RetroUITest"
+      id="12a27471-fff0-4e56-8512-d3fc8f5df999"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

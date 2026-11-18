@@ -1,0 +1,237 @@
+﻿<repository
+id="0545d347-a5ec-47c8-b944-08c7ba6d517a"
+name="RetroUITestRepository">
+	<codegen
+	classname="RetroUITestRepository"
+	namespace="RetroUITest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9e9a2ca7-df10-4749-a863-a89b9cbc0de9"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,delphicontrol"
+		capname="form"
+		id="02c6fb6a-ab80-4874-90f6-904cd6c6651b"
+		isrooted="True"
+		name="RetroUIForm"
+		refpath="/form[@controlname='RetroUIForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="radiobutton,nativewindow,delphicontrol"
+			capname="radiobutton"
+			id="93daa074-68b0-47f6-960d-2c43b0abfeae"
+			name="RbModem"
+			refimgid="b2291cef-6314-4757-9bc9-df4e0f558533"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='grpHoushiki']/radiobutton[@controlname='rbModem']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/radiobutton[@controlname='rbModem']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/radiobutton[@controlname='rbModem']
+			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="b4e46aa2-ac2b-4d74-ac28-59349f3e6360"
+			name="Container459954"
+			refimgid="5a80e5e1-282e-49dd-86e9-8d99e9fa3fab"
+			refpath="/form[@controlname='RetroUIForm']/container[@automationid='459954']"
+			robustPath="/form[@controlname='RetroUIForm']/container[@automationid='459954']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/container[@automationid='459954']
+			</item>
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="bd9497c9-faee-49ef-807b-8c55112b082a"
+			name="ListItemｼｽﾃﾑｼﾞｭﾝﾋﾞｶﾝﾘｮｳ"
+			refimgid="be89e844-0c0d-4958-bdfa-c20025d6f623"
+			refpath="/form[@controlname='RetroUIForm']/list[@controlname='lstLog']/listitem[@text='> ｼｽﾃﾑ ｼﾞｭﾝﾋﾞ ｶﾝﾘｮｳ.']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/listitem[@text='> ｼｽﾃﾑ ｼﾞｭﾝﾋﾞ ｶﾝﾘｮｳ.']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/listitem[@text='&gt; &#65404;&#65405;&#65411;&#65425; &#65404;&#65438;&#65389;&#65437;&#65419;&#65438; &#65398;&#65437;&#65432;&#65390;&#65395;.']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphicontrol"
+			capname="container"
+			id="7116d478-f177-4bb9-894a-10788c4552d3"
+			name="PnlStat1"
+			refimgid="89cb4c17-899c-44ba-89ac-c6cf2606a64e"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlStatus']/container[@controlname='pnlStat1']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat1']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat1']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphicontrol"
+			capname="button"
+			id="b9eb7489-390a-49fa-9bd6-51381971b261"
+			name="BtnExec"
+			refimgid="9689ef87-2346-471b-a608-0e66906bbc9d"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlButtons']/button[@controlname='btnExec']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/button[@controlname='btnExec']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/button[@controlname='btnExec']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphicontrol"
+			capname="button"
+			id="6214ddea-eb3c-48eb-961a-0f7d837f7317"
+			name="BtnStop"
+			refimgid="2bef7457-87e8-4d6e-be6b-c1c99d301621"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlButtons']/button[@controlname='btnStop']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/button[@controlname='btnStop']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/button[@controlname='btnStop']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphicontrol"
+			capname="button"
+			id="e3425edc-e656-4fd4-88e8-ecd86d7cd2f3"
+			name="BtnClose"
+			refimgid="f5af3bb8-92fd-495b-b6af-fe127ebf17b4"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlButtons']/button[@controlname='btnClose']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/button[@controlname='btnClose']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/button[@controlname='btnClose']
+			</item>
+			<item
+			addcaps="list,nativewindow,delphicontrol"
+			capname="list"
+			id="f537dc69-d122-463c-b45b-ab43cdab2468"
+			name="LstLog"
+			refimgid="5592cdb8-1f37-4300-ae56-9c12ff7dadee"
+			refpath="/form[@controlname='RetroUIForm']/list[@controlname='lstLog']"
+			robustPath="/form[@controlname='RetroUIForm']/list[@controlname='lstLog']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/list[@controlname='lstLog']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow,delphicontrol"
+			capname="radiobutton"
+			id="10ad345a-6e14-4272-b65b-a2b74b5a12e9"
+			name="RbLan"
+			refimgid="d6d24e8e-6da8-4094-8663-d1fa900ee19c"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='grpHoushiki']/radiobutton[@controlname='rbLan']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/radiobutton[@controlname='rbLan']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/radiobutton[@controlname='rbLan']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphicontrol"
+			capname="container"
+			id="eeaa43fc-1784-4ae9-8f2c-140ae2423b4f"
+			name="PnlStat2"
+			refimgid="24882077-a3a8-401e-8d7f-61a48e3efd05"
+			refpath="/form[@controlname='RetroUIForm']/container[@controlname='pnlStatus']/container[@controlname='pnlStat2']"
+			robustPath="/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat2']"
+			searchtimeout="30000ms">
+				/form[@controlname='RetroUIForm']/?/?/container[@controlname='pnlStat2']
+			</item>
+			<basepath>
+				/form[@controlname='RetroUIForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJzSURBVDhPdVLdSxVBHN2HoO7u7OzOzL27M/4J
+PShY+XHFBIXCCosyr+b1A4sszUoSL2FFHyiJqFAoQgQa2ocp9RJBREIGQQ8Rkj3kS9ZDbwXRQ6De
+EzvKprc6cB7m7Pmd3+zvN4bxD5TZtuh0oncGCf8xYbrpU05srsXmjZm+v1BixEiKyeULQuEKV+hj
+ErecGB5ZDJ1coYdJnLX5UGadxu4tdmFgSnGF17dH8e3ToubXt+8w03oGKeajiytcYhJJ7n/fUBwX
+wm7nCh1rAf/D8J79OM4VGkQWqpm/EAYkuVypFwpHhULTuoBUTS0GO1NYXloKtfPFZagXWagTCnmm
+m2NkW5YXFJ3jCpeZRAuNhuZm5qPZ9VFDBZ5OTYd60KxGKFRxuWQcdGN3O5hE3KSIWw4KTRoaG10P
+yVUj9rmxUG/LzUe1UJpGI/N+FZg2SoiLvU4MlVyGxkrmoYVLNInV/37zYkbr93t6URUEBwHFJkWZ
+zXCA+WjgCqWWEwZUrN2gVigkhML72Vdan7jWo4sPcwljm0k+VjAPSa6QFyEoWhdwiEt9zWBoiXXD
+TW7N0d/qgoB8Qk8Gh7hpI25RlDt/hhjsfsj1MEajWHz2PNSbmI82rhCsPtjipgSXeni7qNgwrLlj
+J7BwtRvpdDrUzmfn4qbr4zqTaKfRx/odlBI2tpO4unuf64fmTFwsKMI4ERilUYw4nu4eothyfpZT
+gX4mMdU/gM/zHzTnX85i4EgSXZsJJi0Xk4Rj3I6iNUK3bwgIUGWzL31coduJYdh0NEdMB/csF9OE
+aT4kHKcjdEdmbYiEbcd7mVx5QDimMngj4jzJ9P8GcHDKIZrkRJQAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f1c5f7e2-7d27-4ada-bcbe-b2a44c4b2110"
+		isrooted="True"
+		name="Form確認"
+		refimgid="944de529-f9a9-47a5-ad26-48a7a60449ac"
+		refpath="/form[@title='確認']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow,delphicontrol"
+			capname="button"
+			id="1573aade-491f-4aa2-b00b-d0f8c7a49af9"
+			name="ButtonYes"
+			refimgid="79bdd0d9-176b-451e-895d-14bd114fdd24"
+			refpath="/form[@title='確認']/button[@controlname='Yes']"
+			robustPath="/form[@title='確認']/button[@controlname='Yes']"
+			searchtimeout="30000ms">
+				/form[@title='確認']/button[@controlname='Yes']
+			</item>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="b8a40ef4-b07c-468e-9342-4e63c8c701a2"
+			name="TitleBar確認"
+			refimgid="0fd097e7-27d9-40f0-b903-60ce63ba1815"
+			refpath="/form[@title='確認']/titlebar[@accessiblerole='TitleBar']"
+			robustPath="/form[@title='確認']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='確認']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title='確認']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJzSURBVDhPdVLdSxVBHN2HoO7u7OzOzL27M/4J
+PShY+XHFBIXCCosyr+b1A4sszUoSL2FFHyiJqFAoQgQa2ocp9RJBREIGQQ8Rkj3kS9ZDbwXRQ6De
+EzvKprc6cB7m7Pmd3+zvN4bxD5TZtuh0oncGCf8xYbrpU05srsXmjZm+v1BixEiKyeULQuEKV+hj
+ErecGB5ZDJ1coYdJnLX5UGadxu4tdmFgSnGF17dH8e3ToubXt+8w03oGKeajiytcYhJJ7n/fUBwX
+wm7nCh1rAf/D8J79OM4VGkQWqpm/EAYkuVypFwpHhULTuoBUTS0GO1NYXloKtfPFZagXWagTCnmm
+m2NkW5YXFJ3jCpeZRAuNhuZm5qPZ9VFDBZ5OTYd60KxGKFRxuWQcdGN3O5hE3KSIWw4KTRoaG10P
+yVUj9rmxUG/LzUe1UJpGI/N+FZg2SoiLvU4MlVyGxkrmoYVLNInV/37zYkbr93t6URUEBwHFJkWZ
+zXCA+WjgCqWWEwZUrN2gVigkhML72Vdan7jWo4sPcwljm0k+VjAPSa6QFyEoWhdwiEt9zWBoiXXD
+TW7N0d/qgoB8Qk8Gh7hpI25RlDt/hhjsfsj1MEajWHz2PNSbmI82rhCsPtjipgSXeni7qNgwrLlj
+J7BwtRvpdDrUzmfn4qbr4zqTaKfRx/odlBI2tpO4unuf64fmTFwsKMI4ERilUYw4nu4eothyfpZT
+gX4mMdU/gM/zHzTnX85i4EgSXZsJJi0Xk4Rj3I6iNUK3bwgIUGWzL31coduJYdh0NEdMB/csF9OE
+aT4kHKcjdEdmbYiEbcd7mVx5QDimMngj4jzJ9P8GcHDKIZrkRJQAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="57000771-6bec-4c3b-b209-1150c14c6aa8"
+		isrooted="True"
+		name="TMessageForm"
+		refpath="/form"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlBJREFUOE+l0+tLk1EcwPHnL+lFREpFZBBE0cXrypkvJKwIe1UQSSBB
+mRFIhRYIWlKQ2kUou1lRQVIvBCsyLznS5py2Oedl023q7nsuZ883tlVeQCP6we/l+Z4PB44k/e80
+tpq4/dJGbcsg1c3fudRk4nRNF8ereiip/Ezx2TaKyl5QWPp4yR449QjD4Qqk+mdWmjsETe2Cm20K
+Na8iVD0NUPlwjopmH2fueCm95eZE3STHapwcqXZw8LKdgnITa9K3I9W1mKh/7efGmzAX7k9z8rqT
+kmt2jl61cejKCEWVVgovDmGssLD//CCGcjN558xklvWwLsOAVNv4HJ8/RjgqCEUFwYhGIKziD6vM
+BVPr8au4ZhWcHgWbS8YyIdNtcbFhyzak2oZWVhtdB1WDiKwzH4kzHRCM+zTMDg9pm7Yi3XvybvmZ
+PyPiIKs6oVic2ZDAPS9welV+uFV6h/8SiOugqHrq5nCcmYBgwqdhn1axTCp0WVYLJNhCJ6LoBKJx
+vEHB1JzA4VGxTqkMjCl8MntI27hCYIGuMxv8TdcYcauYxxX6RmU6+lcIJOlagh5P0f0pui1JV/nm
+UOi2ybSbEoGMpYHkiwuIyjr+xfSZFL3fKdNrl+m0xnjftyygA9ovejCm40u+usZYgu5aoH8ZifHR
+EuVtr4f1icDdRQIByBoEY+ALwdQ8OLw6wy7BwLjg66hG54jKhyElGVibvhmpvuEBefsKyDUYyTEY
+yTYYyTIYycwzsjfXyJ6cfHbn5LMrO5+dWandkZna3IJiln/Of56f/tfmtkrWUvcAAAAASUVORK5C
+YII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

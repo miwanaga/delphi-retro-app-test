@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="78c359e0-55de-45ba-bd0a-7c8ace2d6f55"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="RetroUITest">
+	</codegen>
+	<variables>
+		<var
+		id="a61a24a9-4cb6-4d4d-af9a-a0aeeb8776ba"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\work\RetroUI2\RetroUID7\RetroUID7.exe
+			</filename>
+			<workingdir>
+				C:\work\RetroUI2\RetroUID7
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="0545d347-a5ec-47c8-b944-08c7ba6d517a"
+	name="RetroUITestRepository"
+	relativepath="RetroUITestRepository.rxrep">
+		<codegen
+		classname="RetroUITestRepository"
+		namespace="RetroUITest">
+		</codegen>
+		<rootfolder
+		id="9e9a2ca7-df10-4749-a863-a89b9cbc0de9"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
