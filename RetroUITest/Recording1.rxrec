@@ -317,7 +317,7 @@ D+tRfZf+mqfr/hVryf8Aa/Sjyf8Aa/SsZ18PP4n+ZrOiqnxI/9k=
 					<attribute
 					name="text"
 					type="System.String">
-						&gt; 初期化が完了しました
+						&gt; &#21021;&#26399;&#21270;&#12364;&#23436;&#20102;&#12375;&#12414;&#12375;&#12383;
 					</attribute>
 					<attribute
 					name="checked"
@@ -326,7 +326,7 @@ D+tRfZf+mqfr/hVryf8Aa/Sjyf8Aa/SsZ18PP4n+ZrOiqnxI/9k=
 					</attribute>
 				</element>
 				<path>
-					/form[@controlname='RetroUIForm']/?/?/listitem[@text='&gt; 初期化が完了しました']
+					/form[@controlname='RetroUIForm']/?/?/listitem[@text='&gt; &#21021;&#26399;&#21270;&#12364;&#23436;&#20102;&#12375;&#12414;&#12375;&#12383;']
 				</path>
 				<robustPath>
 				</robustPath>

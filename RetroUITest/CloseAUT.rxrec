@@ -197,7 +197,6 @@ mode="Desktop">
 					/form[@title='確認']/button[@controlname='Yes']
 				</path>
 				<robustPath>
-					/form[@title='確認']/button[@controlname='Yes']
 				</robustPath>
 			</info>
 			<helperscreenshot
